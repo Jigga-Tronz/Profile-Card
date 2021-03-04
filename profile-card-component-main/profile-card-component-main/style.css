@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    
+    font-family: 'Kumbh Sans', sans-serif,'arial';
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    background-color: hsl(185, 75%, 39%);
+    background-position: 
+        top -580px left -380px,
+        bottom -1300px right -400px;
+    background-image: url(images/bg-pattern-top.svg),url(images/bg-pattern-bottom.svg) ;
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, auto;
+}
+
+.container{
+    position: absolute;
+    margin: 350px 50% 350px 50%;
+    width: 375px;
+    height: 70vh;
+    transform: translate(-50%, -50%);
+    background-image: url(images/bg-pattern-card.svg);
+    padding: 0px;
+    border: 14px 14px;
+    border-style: none;
+    border-radius: 20px;
+}
+
+.profile-photo{
+    position: absolute;
+    width: 100px;
+    top:100px;
+    margin-left: 130px;
+    border: 8px solid white;
+    border-radius: 50%;
+}
+
+.identity{
+    margin-top: 148px;
+    margin-left: 0px;
+    background-color: white;
+    font-size: 18px;
+    font-family: 400;
+    padding: 60px 30px 0px 0px;
+    border: 8px none;
+    height: 48vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.list{
+   list-style: none;
+    margin-top: 10px;
+    margin-left: 112px;
+    font-weight: 700;
+    font-size: 18px;
+    }
+
+.list li{
+    display: inline-block;
+    margin-left: 8px;
+    margin-bottom: 12px;
+    
+}
+
+.age{
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
+
+.location{
+    margin-left: 150px;
+    margin-bottom: 50px;
+    color: hsl(0,0%,59%);
+}
+
+
+.horizon{
+    width:375px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.stats{
+    margin-left: 2px;
+}
+
+.stats,.knowing{
+    list-style: none;  
+}
+
+.stats li{
+    display: inline-block;
+    margin-left: 58px;
+    margin-bottom: 5px;
+    font-weight:700;
+    font-size: 20px;
+    text-align: center;
+}
+
+.knowing{
+    margin-left: -12px;
+}
+
+.knowing li{
+    display: inline-block;
+    margin-left: 55px;
+    margin-bottom: 35px;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: hsl(0, 0%, 59%);
+}
+
+ .attribution { 
+     font-size: 11px; 
+     text-align: center;
+     margin-left: 14px
+}
+
+ .attribution a { 
+     color: hsl(228, 45%, 44%);
+     text-decoration: none;
+}
